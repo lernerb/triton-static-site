@@ -1,0 +1,78 @@
+.header {
+  min-width: 1200px;
+  width: 100%;
+  height: 88px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #707BB8;
+  padding: 20px;
+}
+
+.call {
+  min-height: 48px;
+  min-width: 20px;
+  background: white;
+  font-weight: 800;
+  font-size: .9em;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  color: #707BB8;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-decoration: none !important;
+}
+
+.phone:hover {
+  color: orange;
+}
+
+/*
+//rgba(230,242,255,.66);
+*/
+
+
+.navcontainer {
+  list-style-type: none;
+  margin: 0;
+  max-height: 80px;
+  padding-left: 20px;
+  padding-right: 40px;
+  overflow: hidden;
+  background-color: #707BB8;
+  
+}
+
+.navitem {
+  float: left;
+}
+
+.navitem a {
+  display: block;
+  color: white;
+  font-size: 1.1em;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.businessname {
+  font-size: 1.2em;
+  font-weight: 900;
+  padding-right: 40px;
+
+  color: white;
+}
