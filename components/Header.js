@@ -23,7 +23,7 @@ export default function Header() {
         </div>
 
         <div className={styles.call}>
-          <a href="tel:5515029819" className={styles.phone}>CALL US (551) 502-9819</a>
+          <a href="tel:5515029819" className={styles.phone}>CALL US - (551) 502-9819</a>
         </div>
       </header>
     </>
