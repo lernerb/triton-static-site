@@ -1,0 +1,16 @@
+.servicearea {
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e7e7e7;
+  background-color: #edf4f6;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: 'PT Serif', serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: .25;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

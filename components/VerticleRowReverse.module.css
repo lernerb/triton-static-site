@@ -1,0 +1,52 @@
+.container {
+  display:inline-flex
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  float: left;
+  width: 50%;
+  height: 400px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.right {
+  float: right;
+  height: auto;
+  width: 50%;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+padding: 0px;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+
+}
+
+.itemtitle {
+  font-size: 2em;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+}
