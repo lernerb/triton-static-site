@@ -18,9 +18,9 @@ export default function Bottom() {
 
         <div className={styles.bottomitem}>
           <p className={styles.bottomtitle}>Our Location</p>
-          <>Triton Coating &amp; Construction</>
-          <p>2 Fulton Place</p>
-          <p>Fair Lawn, NJ 07410</p>
+          <p className={styles.address}>Triton Coating &amp; Construction</p>
+          <p className={styles.address}>2 Fulton Place</p>
+          <p className={styles.address}>Fair Lawn, NJ 07410</p>
 
         </div>
 
@@ -31,10 +31,15 @@ export default function Bottom() {
               Phone:&nbsp;
               <a href="tel:5515029819">(551) 502 - 9819 </a>
             </div>
-            <br/>
+            <br />
             <div>
               Email:
               <a href="mailto:tritoncoating@gmail.com">tritoncoating@gmail.com</a>
+            </div>
+            <br />
+            <div className={styles.license}>
+              <p>Home Improvement Contractor</p>
+              <p>License: #13VH10050400</p>
             </div>
           </ul>
         </div>

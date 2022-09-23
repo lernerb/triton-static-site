@@ -6,7 +6,9 @@ export default function Header() {
       <header className={styles.header}>
 
         <div className={styles.businessname}>
-          Triton Coating &amp; Construction
+          <a href="/">
+            Triton Coating &amp; Construction
+          </a>
         </div>
 
         <div className={styles.logo}>
@@ -15,7 +17,7 @@ export default function Header() {
 
         <div className={styles.navigation}>
           <ul className={styles.navcontainer}>
-            <li className={styles.navitem}><a href="/">Services</a></li>
+            <li className={styles.navitem}><a href="/">Home</a></li>
             <li className={styles.navitem}><a href="/locations">Locations</a></li>
             <li className={styles.navitem}><a href="/reviews">Reviews</a></li>
             <li className={styles.navitem}><a href="/about">About</a></li>

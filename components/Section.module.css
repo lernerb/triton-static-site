@@ -1,0 +1,26 @@
+.container {
+  height: 100%;
+  width: 100%;
+  align-items: stretch;
+  min-height: 48px;
+  flex-direction: column;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: auto;
+  font-size: 2.9em;
+  color: black;
+  font-weight: 900;
+  margin: 20px;
+}
+
+.description {
+  width: auto;
+  font-size: 1.25em;
+  color: grey;
+  font-weight: 600;
+}

@@ -70,3 +70,11 @@
   padding-right: 40px;
   color: white;
 }
+
+.businessname a {
+  font-size: 1.2em;
+  font-weight: 900;
+  color: white;
+  text-decoration: none !important;
+
+}
