@@ -9,8 +9,8 @@ export default function Reviews() {
   return (
     <div className="container">
       <Head>
-        <title>Triton Coating &amp; Construction - Reviews</title>
-        <meta name="description" content="Triton Coating &amp; Construction provides high quality licensed and bonded painters for your residentil or commertial needs. We provide interior, exterior, &amp; other construction services." />
+        <title>Triton Coating &amp; Construction | Customer Reviews</title>
+        <meta name="description" content="Triton Coating &amp; Construction is a highly rated painting company that provides top-notch service. Call now for a free estimate." />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="UTF-8" />
@@ -31,7 +31,7 @@ export default function Reviews() {
         <br />
         <br />
 
-        <center style={{color: "orange", fontSize: "20px", fontWeight: "bold"}}>
+        <center style={{color: "orange", fontSize: "30px", fontWeight: "bold"}}>
           READ REVIEWS FROM SOME OF OUR CUSTOMERS.
         </center>
 
